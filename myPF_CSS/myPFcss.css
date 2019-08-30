@@ -1,0 +1,64 @@
+html, body, div, iframe,
+ol, ul, li,
+form, table, caption,
+article, canvas, figcaption, figure,
+footer, header, menu, nav, section,
+audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    font-family: 'Jua', "Trebuchet MS", Dotum, Arial;
+    font-weight: bold;
+}
+
+body {
+    line-height:1;
+}
+
+article,figcaption,figure,
+footer,header,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+header #SNS { margin:60px 50px 0 0 ; float:right;}
+header #SNS a { text-decoration: none; }
+
+/*layout*/
+.wrapper{margin:0 200px 0 200px;}
+header{height: 150px;}
+.middle{height:800px;}
+article{height:720px;}
+section{float: left; height:700px;}
+hr{position:relative;}
+footer{color:#444440; font-size: 15px; width:100%; margin:20px 0 30px 0; position: relative;}
+
+/*nav*/
+#topMenu {height:600px; width:180px;
+    position:relative;left:10px; bottom:600px;
+    opacity:0.8; }
+#topMenu ul li {list-style: none;}
+#topMenu .menu {text-decoration:none; text-align:center; display: block;  margin: 10px; padding:5px;
+    line-height: 30px; color: #444440; font-size: 20px; }
+#topMenu .menu:hover {margin:10px; padding:5px; border-radius:20px; color: white; background-color: #7a7874;}
+
+/*section*/
+.num1{position:relative;}
+fieldset{margin-top:50px; text-align:center; letter-spacing:3px; color: #444440;}
+legend{font-size: 25px; font-variant:small-caps;}
+p{color: #444440; background-color:#eddac0; margin:10px; padding:10px; text-align: center; font-size:26px;}

@@ -1,0 +1,19 @@
+body{background-color:#D1B2FF}
+
+header{height: 140px;}
+
+article{height:530px;}
+
+hr{position:relative;}
+footer{color:#444440; font-size: 15px; width:100%; margin:20px 0 30px 0; position: relative;}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ #logo0:hover { background-color:#FAED7D}
+
