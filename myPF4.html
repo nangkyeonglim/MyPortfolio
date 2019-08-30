@@ -1,0 +1,68 @@
+<!DOCTYPE html><!--나의 목표-->
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta authors="nklim"/>
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" type="text/css" href="myPFcss3.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="wrapper">
+<header>
+    <a href="myPF0.html"><img src="logo1.png" width="30%" style="float:left; margin-top:30px;"/></a>
+     <div id="SNS">
+       <a href="http://facebook.com" target="_blank">
+           <img src="facebook.png" height="40" alt="Facebook">
+       </a>
+       <a href="http://twitter.com" target="_blank">
+           <img src="twitter.png" height="40" alt="Twitter">
+       </a>
+       <a href="http://plus.google.com" target="_blank">
+           <img src="googleplus.png" height="40" alt="Google Plus">
+       </a>
+    </div>
+</header>
+
+<div class="middle">
+     <img src="background6.jpg" style="position:relative; width:100%;"/>
+<nav id="topMenu">
+        <a class="menu" href="myPF2.html">학점관리</a>
+        <a class="menu" href="myPF3.html">공모전</br>대외활동</a>
+        <a class="menu" href="myPF4.html">나의 목표</a>
+        <a class="menu" href="myPF5.html">자료관리</a>
+</nav>
+</div>
+
+<article>
+    <section>
+    <h2>#나의 목표</h2>
+        <p>앞으로의 나의 계획 혹은 목표에 대해 정리해보자!</p><br>
+          <form method="get" action="form_app.js">
+              <input type="checkbox" name="hobby" value="read" style="width:30px; height:30px"/>여름방학
+              <input type="checkbox" name="hobby" value="movie" style="width:30px; height:30px"checked/>3-2학기
+              <input type="checkbox" name="hobby" value="music" style="width:30px; height:30px"/>겨울방학
+              <input type="checkbox" name="hobby" value="sports"style="width:30px; height:30px"/>4-1학기<br><br>
+            나의 목표 : <input type="text" style="width:300px; height:30px" list="kind" />
+                <datalist id="kind">
+                    <option value="자격증"/>
+                    <option value="인턴"/>
+                    <option value="공모전"/>
+                </datalist><br><br>
+            구체적 목표 : <input  type="text" name="p_target" style="width:800px; height:30px"/> <br><br>
+            목표 달성일 : <input type="date" name="last_date" min="2019-06-17" style="width:300px; height:30px" ><br><br>
+            메모: <br>
+                <textarea name="comment" cols="100" rows="5"> 내용을 입력하세요:
+                </textarea>
+                <hr>
+                <input type="button" value="저장하기" onclick="alert('나의 목표가 저장되었습니다!')";/>
+        </form>
+    </section>
+</article>
+<hr width="100%">
+<footer><center>COPYRIGHT MY PORTFOLIO ALL RIGHTS RESERVED | @naver.com</center></footer>
+</div>
+</body>
+</html>

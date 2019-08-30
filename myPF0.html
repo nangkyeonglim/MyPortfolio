@@ -1,0 +1,38 @@
+<!DOCTYPE html><!--첫 페이지-->
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta authors="nklim"/>
+    <title>MY PORTFOLIO_Welcome!</title>
+    <link rel="stylesheet" type="text/css" href="myPFcss2.css"/>
+</head>
+
+<body>
+<header></header>
+<article>
+    <a href="myPF1.html"><img src="logo0.png" id="logo0" width="45%" style="margin-left:26.5%; margin-top: 6%
+                            " onclick="alert('오늘 하루 어땠나요? 오늘의 경험을 기록해보세요!!:D')"/></a>
+    <br>
+    <canvas id="myCanvas" width="1000" height="100" ></canvas>
+    <script type="text/javascript">
+        var canvas = document.getElementById("myCanvas");
+        var myContext = canvas.getContext("2d");
+
+        var today = new Date( );
+        var y = today.getFullYear( );
+        var m = today.getMonth( ) + 1;
+        var d = today.getDate( );
+        var day = today.getDay( );
+        var week = ["일", "월", "화", "수", "목", "금", "토"]
+
+        myContext.font = " 24pt Trebuchet MS";
+        myContext.fillStyle = "#8041D9";
+        myContext.fillText( y +"." + m + "." + d + "(" + week[day] + ")", 689, 26)
+
+    </script>
+</article>
+<hr width="100%">
+<footer><center>COPYRIGHT MY PORTFOLIO ALL RIGHTS RESERVED | </center></footer>
+</body>
+</html>

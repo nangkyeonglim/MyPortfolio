@@ -1,0 +1,64 @@
+<!DOCTYPE html><!--자료 관리-->
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta authors="nklim"/>
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" type="text/css" href="myPFcss3.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="wrapper">
+<header>
+    <a href="myPF0.html"><img src="logo1.png" width="30%" style="float:left; margin-top:30px;"/></a>
+     <div id="SNS">
+       <a href="http://facebook.com" target="_blank">
+           <img src="facebook.png" height="40" alt="Facebook">
+       </a>
+       <a href="http://twitter.com" target="_blank">
+           <img src="twitter.png" height="40" alt="Twitter">
+       </a>
+       <a href="http://plus.google.com" target="_blank">
+           <img src="googleplus.png" height="40" alt="Google Plus">
+       </a>
+    </div>
+</header>
+
+<div class="middle">
+     <img src="background6.jpg" style="position:relative; width:100%;"/>
+<nav id="topMenu">
+        <a class="menu" href="myPF2.html">학점관리</a>
+        <a class="menu" href="myPF3.html">공모전</br>대외활동</a>
+        <a class="menu" href="myPF4.html">나의 목표</a>
+        <a class="menu" href="myPF5.html">자료관리</a>
+</nav>
+</div>
+
+<article>
+     <h2>#자료 관리</h2>
+    <section>
+        <form method="get" action="form_app.js">
+            <input type="hidden" name="userIP" value="1234">
+            파일 업로드하기
+            <br>
+            <p><input type="file" name="myfile"/> </p>
+            <hr>
+            <input type="button" value="저장" onclick="alert('업로드 되었습니다!')"/>
+            <input type="reset" value="취소"/>
+        </form>
+        <fieldset><legend>Rolling with the music1</legend>
+            <iframe  width="900px" height="420px"src="https://www.youtube.com/embed/thlhfOYC9L8" frameborder="0" allowfullscreen></iframe>
+        </fieldset>
+         <fieldset><legend>Rolling with the music2</legend>
+            <iframe  width="900px" height="420px"src=https://www.youtube.com/embed/Y-tqjQyP_4Q frameborder="0" allowfullscreen></iframe>
+        </fieldset>
+    </section>
+</article>
+
+<hr width="100%">
+<footer><center>COPYRIGHT MY PORTFOLIO ALL RIGHTS RESERVED | @naver.com</center></footer>
+</div>
+</body>
+</html>

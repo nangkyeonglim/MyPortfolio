@@ -1,0 +1,205 @@
+<!DOCTYPE html> <!--학점관리-->
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta authors="nklim"/>
+    <title>MY PORTFOLIO</title>
+    <link rel="stylesheet" type="text/css" href="myPFcss3.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="wrapper">
+<header>
+    <a href="myPF0.html"><img src="logo1.png" width="30%" style="float:left; margin-top:30px;"/></a>
+     <div id="SNS">
+       <a href="http://facebook.com" target="_blank">
+           <img src="facebook.png" height="40" alt="Facebook">
+       </a>
+       <a href="http://twitter.com" target="_blank">
+           <img src="twitter.png" height="40" alt="Twitter">
+       </a>
+       <a href="http://plus.google.com" target="_blank">
+           <img src="googleplus.png" height="40" alt="Google Plus">
+       </a>
+    </div>
+</header>
+
+<div class="middle">
+     <img src="background6.jpg" style="position:relative; width:100%;"/>
+<nav id="topMenu">
+        <a class="menu" href="myPF2.html">학점관리</a>
+        <a class="menu" href="myPF3.html">공모전</br>대외활동</a>
+        <a class="menu" href="myPF4.html">나의 목표</a>
+        <a class="menu" href="myPF5.html">자료관리</a>
+</nav>
+</div>
+
+<article>
+        <h2>#학점 관리</h2>
+        <form action="">
+            <p> 학점계산기(이번 학기 학점을 계산해보아요) </p>
+         <table border="1" align="center">
+                <tr> <th> 학기 </td> <th> 과목명 </th> <th> 학점 </th> <th> 성적 </th> </tr>
+                <tr>
+                    <td> <input type="text" style="width:100px; height:30px" list="kind1" />
+                        <datalist id="kind1">
+                            <option value="1학년 1학기"/>
+                            <option value="1학년 2학기"/>
+                            <option value="2학년 1학기"/>
+                            <option value="2학년 2학기"/>
+                            <option value="3학년 1학기"/>
+                            <option value="3학년 2학기"/>
+                            <option value="4학년 1학기"/>
+                            <option value="4학년 2학기"/>
+                        </datalist> </td>
+                    <td> <input type="text"style="width:300px; height:30px" value="과목명을 입력하세요" onclick="this.select();" /> </td>
+                    <td> <input id="subject1Weight" type="text" size="2" value="0" onclick="this.select();" /> </td>
+                    <td> <input id="subject1" type="text" size="2" value="0" onclick="this.select();"/> </td>
+                </tr>
+               <tr>
+                    <td> <input type="text" style="width:100px; height:30px" list="kind2" />
+                        <datalist id="kind2">
+                            <option value="1학년 1학기"/>
+                            <option value="1학년 2학기"/>
+                            <option value="2학년 1학기"/>
+                            <option value="2학년 2학기"/>
+                            <option value="3학년 1학기"/>
+                            <option value="3학년 2학기"/>
+                            <option value="4학년 1학기"/>
+                            <option value="4학년 2학기"/>
+                        </datalist> </td>
+                    <td> <input type="text"style="width:300px; height:30px" value="과목명을 입력하세요" onclick="this.select();" /> </td>
+                    <td> <input id="subject2Weight" type="text" size="2" value="0" onclick="this.select();" /> </td>
+                    <td> <input id="subject2" type="text" size="2" value="0" onclick="this.select();"/> </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" style="width:100px; height:30px" list="kind3" />
+                        <datalist id="kind3">
+                            <option value="1학년 1학기"/>
+                            <option value="1학년 2학기"/>
+                            <option value="2학년 1학기"/>
+                            <option value="2학년 2학기"/>
+                            <option value="3학년 1학기"/>
+                            <option value="3학년 2학기"/>
+                            <option value="4학년 1학기"/>
+                            <option value="4학년 2학기"/>
+                        </datalist> </td>
+                    <td> <input  type="text"style="width:300px; height:30px" value="과목명을 입력하세요" onclick="this.select();" /> </td>
+                    <td> <input id="subject3Weight" type="text" size="2" value="0" onclick="this.select();" /> </td>
+                    <td> <input id="subject3" type="text" size="2" value="0" onclick="this.select();"/> </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" style="width:100px; height:30px" list="kind4" />
+                        <datalist id="kind4">
+                            <option value="1학년 1학기"/>
+                            <option value="1학년 2학기"/>
+                            <option value="2학년 1학기"/>
+                            <option value="2학년 2학기"/>
+                            <option value="3학년 1학기"/>
+                            <option value="3학년 2학기"/>
+                            <option value="4학년 1학기"/>
+                            <option value="4학년 2학기"/>
+                        </datalist> </td>
+                    <td> <input  type="text"style="width:300px; height:30px" value="과목명을 입력하세요" onclick="this.select();" /> </td>
+                    <td> <input id="subject4Weight" type="text" size="2" value="0" onclick="this.select();" /> </td>
+                    <td> <input id="subject4" type="text" size="2" value="0" onclick="this.select();"/> </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" style="width:100px; height:30px" list="kind5" />
+                        <datalist id="kind5">
+                            <option value="1학년 1학기"/>
+                            <option value="1학년 2학기"/>
+                            <option value="2학년 1학기"/>
+                            <option value="2학년 2학기"/>
+                            <option value="3학년 1학기"/>
+                            <option value="3학년 2학기"/>
+                            <option value="4학년 1학기"/>
+                            <option value="4학년 2학기"/>
+                        </datalist> </td>
+                    <td> <input type="text"style="width:300px; height:30px" value="과목명을 입력하세요" onclick="this.select();" /> </td>
+                    <td> <input id="subject5Weight" type="text" size="2" value="0" onclick="this.select();" /> </td>
+                    <td> <input id="subject5" type="text" size="2" value="0" onclick="this.select();"/> </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" style="width:100px; height:30px" list="kind6" />
+                        <datalist id="kind6">
+                            <option value="1학년 1학기"/>
+                            <option value="1학년 2학기"/>
+                            <option value="2학년 1학기"/>
+                            <option value="2학년 2학기"/>
+                            <option value="3학년 1학기"/>
+                            <option value="3학년 2학기"/>
+                            <option value="4학년 1학기"/>
+                            <option value="4학년 2학기"/>
+                        </datalist> </td>
+                    <td> <input  type="text"style="width:300px; height:30px" value="과목명을 입력하세요" onclick="this.select();" /> </td>
+                    <td> <input id="subject6Weight" type="text" size="2" value="0" onclick="this.select();" /> </td>
+                    <td> <input id="subject6" type="text" size="2" value="0" onclick="this.select();"/> </td>
+                </tr>
+                <tr>
+                    <td> <input type="text" style="width:100px; height:30px" list="kind7"/>
+                        <datalist id="kind7">
+                            <option value="1학년 1학기"/>
+                            <option value="1학년 2학기"/>
+                            <option value="2학년 1학기"/>
+                            <option value="2학년 2학기"/>
+                            <option value="3학년 1학기"/>
+                            <option value="3학년 2학기"/>
+                            <option value="4학년 1학기"/>
+                            <option value="4학년 2학기"/>
+                        </datalist> </td>
+                    <td> <input type="text"style="width:300px; height:30px" value="과목명을 입력하세요" onclick="this.select();" /> </td>
+                    <td> <input id="subject7Weight" type="text" size="2" value="0" onclick="this.select();" /> </td>
+                    <td> <input id="subject7" type="text" size="2" value="0" onclick="this.select();"/> </td>
+                </tr>
+                <tr>
+                    <td> 평균 </td> <td> </td>
+                    <td> <input id="totalNumber" type="text" size= "2" value="0"/> </td>
+                    <td> <input id="totalAverage" type="text" size="6" value="0"/> </td>
+                </tr>
+            </table> <br />
+        <input type="button" value="평균계산" onclick="updateAll();" />
+        <input type="reset" value="초기화"/>
+    </form>
+
+        <script type="text/javascript">
+            function updateAll() {
+            var n1 = document.getElementById("subject1Weight").value;
+            var n2 = document.getElementById("subject2Weight").value;
+            var n3 = document.getElementById("subject3Weight").value;
+            var n4 = document.getElementById("subject4Weight").value;
+            var n5 = document.getElementById("subject5Weight").value;
+            var n6 = document.getElementById("subject6Weight").value;
+            var n7 = document.getElementById("subject7Weight").value;
+
+            var m1 = document.getElementById("subject1").value;
+            var m2 = document.getElementById("subject2").value;
+            var m3 = document.getElementById("subject3").value;
+            var m4 = document.getElementById("subject4").value;
+            var m5 = document.getElementById("subject5").value;
+            var m6 = document.getElementById("subject6").value;
+            var m7 = document.getElementById("subject7").value;
+
+            var p1 = n1 * m1;
+            var p2 = n2 * m2;
+            var p3 = n3 * m3;
+            var p4 = n4 * m4;
+            var p5 = n5 * m5;
+            var p6 = n6 * m6;
+            var p7 = n7 * m7;
+
+            var totalNumber =parseInt(n1) + parseInt(n2) + parseInt(n3) + parseInt(n4) + parseInt(n5) + parseInt(n6) + parseInt(n7);
+            document.getElementById("totalNumber").value = totalNumber;
+	        var average = (parseFloat(p1) + parseFloat(p2) + parseFloat(p3) + parseFloat(p4) + parseFloat(p5) + parseFloat(p6) + parseFloat(p7))/ totalNumber;
+            document.getElementById("totalAverage").value = average;
+        }
+    </script>
+</article>
+
+<hr width="100%">
+<footer><center>COPYRIGHT MY PORTFOLIO ALL RIGHTS RESERVED | @naver.com</center></footer>
+</div>
+</body>
+</html>
